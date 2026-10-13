@@ -122,7 +122,7 @@ public class PowerTests
     [TestMethod]
     public void Power_Valid()
     {
-        Assert.AreEqual(10, Program.Power("2", "3"));
+        Assert.AreEqual(8, Program.Power("2", "3"));
         Assert.AreEqual(25, Program.Power("5", "2"));
         Assert.AreEqual(1, Program.Power("7", "0"));
     }
